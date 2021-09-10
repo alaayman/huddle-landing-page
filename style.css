@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    background: url(/images/bg-desktop.svg), hsl(257, 40%, 49%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+
+}
+.container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.register{
+    border-radius: 20px;
+}
