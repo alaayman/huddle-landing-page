@@ -10,7 +10,7 @@ body{
     color: white;
     height: 100vh;
     display:flex;
-    flex-direction: coulmn;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
