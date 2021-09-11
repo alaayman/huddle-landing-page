@@ -10,6 +10,7 @@ body{
     color: white;
     height: 100vh;
     display:flex;
+    flex-direction: coulmn;
     justify-content: center;
     align-items: center;
 
