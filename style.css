@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --padding: 40px 80px;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -8,14 +13,16 @@ body {
   background-repeat: no-repeat;
   color: white;
   height: 100vh;
-  padding: 15px;
+  padding: var(--padding);
   display: flex;
   flex-direction: column;
+  font-family: "Open Sans";
 }
 .header {
   position: relative;
   padding: 15px;
 }
+
 .header img {
   width: 200px;
 }
@@ -32,6 +39,8 @@ body {
 }
 .left img {
   width: 100%;
+  /* width: 700px; */
+  /* height: 500px; */
 }
 .right {
   flex: 1 1 45%;
@@ -40,16 +49,69 @@ body {
 .right > * {
   padding: 15px;
 }
+.right h1 {
+  font-size: 38px;
+  font-family: "Poppins";
+}
+
 .register {
   padding: 15px;
   margin: 20px;
   font-weight: 700;
-  width: 40%;
-  background: lightgray;
-  color: hsl(300, 69%, 71%);
-  border-radius: 20px;
+  text-align: center;
+  width: 200px;
+  background: rgb(255, 255, 255);
+  color: hsl(257, 40%, 49%);
+  border-radius: 30px;
 }
 
+.social {
+  display: block;
+  text-align: right;
+  padding: 15px 30px;
+}
 ion-icon {
-  font-size: 64px;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 15px;
+}
+.attribution a {
+  color: hsl(228, 25%, 72%);
+}
+@media only screen and (max-width: 420px) {
+  :root {
+    --padding: 10px 10px;
+  }
+  body {
+    background: url(./images/bg-mobile.svg), hsl(257, 40%, 49%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .right {
+    text-align: center;
+  }
+  .right h1 {
+    font-size: 24px;
+  }
+  .social {
+    display: block;
+    text-align: center;
+  }
+  .register {
+    margin: 20px auto;
+    width: 200px;
+  }
+  .social {
+    display: block;
+    text-align: center;
+    padding: 15px 30px;
+  }
+  .header img {
+    width: 140px;
+  }
 }
