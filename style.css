@@ -8,13 +8,17 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    min-height: 100vh;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    display: flex;
+    width:90%;
+    padding:20px    
+    justify-content: center;
 }
 .register{
     border-radius: 20px;
