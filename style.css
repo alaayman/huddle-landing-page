@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url('./images/bg-desktop.svg'), hsl(257, 40%, 49%);
+    background: url(./images/bg-desktop.svg), hsl(257, 40%, 49%);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
