@@ -74,16 +74,20 @@ body {
   text-align: right;
   padding: 15px 30px;
 }
-.social a{
+.social a,
+a:hover,
+a:focus,
+a:active {
+height: 40px;
   text-decoration: none;
-  color: inherit;
+  color: #ffffff;
 }
 ion-icon {
   font-size: 40px;
   padding: 10px;
 }
 ion-icon:hover {
-color: hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
 }
 .attribution {
   font-size: 11px;
@@ -93,7 +97,7 @@ color: hsl(300, 69%, 71%);
 .attribution a {
   color: hsl(228, 25%, 72%);
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 420px) {
   :root {
     --padding: 10px 10px;
   }
