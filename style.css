@@ -35,7 +35,7 @@ body {
   justify-content: center;
 }
 .left {
-  flex: 1 1 55%;
+  flex: 1 1 60%;
 }
 .left img {
   width: 100%;
@@ -43,7 +43,7 @@ body {
   /* height: 500px; */
 }
 .right {
-  flex: 1 1 45%;
+  flex: 1 1 40%;
   padding: 15px;
 }
 .right > * {
@@ -64,17 +64,27 @@ body {
   color: hsl(257, 40%, 49%);
   border-radius: 30px;
 }
+.register:hover {
+  background: hsl(300, 69%, 71%);
+  color: rgb(255, 255, 255);
+}
 
 .social {
   display: block;
   text-align: right;
   padding: 15px 30px;
 }
+.social a{
+  text-decoration: none;
+  color: inherit;
+}
 ion-icon {
   font-size: 40px;
-  padding: 15px;
+  padding: 10px;
 }
-
+ion-icon:hover {
+color: hsl(300, 69%, 71%);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -83,7 +93,7 @@ ion-icon {
 .attribution a {
   color: hsl(228, 25%, 72%);
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 720px) {
   :root {
     --padding: 10px 10px;
   }
