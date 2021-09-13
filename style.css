@@ -63,6 +63,7 @@ body {
   background: rgb(255, 255, 255);
   color: hsl(257, 40%, 49%);
   border-radius: 30px;
+  box-shadow: 0 10px 20px 0px rgba(10, 10, 10, 0.4);
 }
 .register:hover {
   background: hsl(300, 69%, 71%);
@@ -85,6 +86,8 @@ height: 40px;
 ion-icon {
   font-size: 40px;
   padding: 10px;
+  box-shadow: 0 10px 20px 0px rgba(10, 10, 10, 0.4);
+  border-radius: 50%;
 }
 ion-icon:hover {
   color: hsl(300, 69%, 71%);
